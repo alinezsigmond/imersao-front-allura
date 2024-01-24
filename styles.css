@@ -163,3 +163,41 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    padding: 11px 24px 7px 15px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer__text {
+    font-size: 16px;
+}
+
+.footer__button {
+    width: 195px;
+    height: 48px;
+    border-radius: 40px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 15px;
+}
